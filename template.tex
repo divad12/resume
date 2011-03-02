@@ -13,8 +13,10 @@ directiveStartToken = !
 \oddsidemargin -.5in
 \evensidemargin -.5in
 \textwidth=6.0in
+\textheight=9.5in
 \itemsep=0in
 \parsep=0in
+\pagestyle{plain}  % Do want page numbers
 
 \newenvironment{list1}{
   \begin{list}{\ding{113}}{%
@@ -49,6 +51,35 @@ directiveStartToken = !
         \end{list2}
     !end for
 !end for
+
+
+\section {Work Experience}
+
+\begin{format}
+  \employer{l}\title{r}\\
+  \location{l}\dates{r}\\
+  \body\\
+\end{format}
+
+!for ;position in ;work
+    \employer{\textbf{;position.employer}}
+    \title{;position.title}
+    \location{;position.location}
+    \dates{;position.dates}
+    \begin{position}
+        \vspace{-.3cm}
+        !if ;position.description
+            \begin{list2}
+            !for ;point in ;position.description
+                \item ;point
+            !end for
+            \end{list2}
+        !else
+            \vspace{-.2cm}
+        !end if
+    \end{position}
+!end for
+
 
 \section{\sc Education}
 {\bf Carnegie Mellon University}, Pittsburgh, Pennsylvania USA\\

@@ -9,14 +9,50 @@ skills:
     - Languages and technologies:
         - 'C++: 5 years of experience through work, personal projects, contests, robotics, and school'
         - 'JavaScript: Optimizations and browser bug work-arounds for Google Docs'
-        - 'Moderate experience in Python, C, C#, Qt, Django, Google Closure Tools'
-        - 'Working experience in Bash scripting, YAML, LaTeX, Scheme, ASP.NET'
-        - 'Experienced with the Linux command line; Ubuntu; Mac OS X; Windows'
-        - 'Proficient with Vim and Git; worked with GNU Make, Perforce, SVN, Visual Studio'
-    - General:
-        - 'Regularly competes in programming contests, including ACM, Google AI contest, CCC, Project Euler, USACO'
-        - 'Django and MySQL backend for various web projects'
+        - 'Moderate experience: Python, C, C#, Qt, Django, Google Closure Tools'
+        - 'Working experience: Bash scripting, Scheme, LaTeX' # HTML, CSS, JSON, YAML
+        - 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
+        - 'Tools: Proficient with Vim and Git; worked with Perforce, SVN, GNU Make, gdb, Visual Studio'
+    - Projects:
         - 'Artificial intelligence bots: Gomoku, competition Tron, competition Rock-Paper-Scissors'
+        - 'First place optimizing compiler for university competition'
+        - 'WEP/WPA penetration-testing GUI application on BackTrack 3'
+        - 'Multiple web apps: backends in Django + MySQL and C# + ASP.NET'
         - 'MSN plugins: conversation bot, multiplayer display name game'
-        - 'High school: FIRST Robotics controller, Xbox 360 video game, tournament scheduler'
-        - 'Interests include machine learning, compilers, and functional programming'
+        - 'High school: FIRST Robotics controller, Xbox 360 game, tournament scheduler, automation scripts'
+    - General:
+        - 'Regularly competes in programming contests, including ACM, Google AI contest, CCC, Project Euler, USACO' # ECOO, DWITE, TopCoder, IBM CASCON, IPSC
+        - 'Interests: artificial intelligence, compilers, algorithms, and functional programming'
+work:
+    - employer: Google
+      title: Software Engineering Intern in Test
+      location: Mountain View, CA
+      dates: January 2011 - Present
+      description:
+        - 'Designed and implemented a multi-threaded cross-platform GUI automated testing framework for Google Earth'
+    - employer: Google
+      title: Software Engineering Intern
+      location: Waterloo, ON
+      dates: May - August, 2010
+      description:
+        - 'Implemented product features for Google Mobile Docs by working around browser bugs'
+        - 'Derived cubic Bezier math for web-based smooth scrolling using CSS 3D transforms'
+        - 'Optimized speed by exploiting JavaScript implementations and improving data structures'
+    - employer: TD Bank Financial Group
+      title: IT Student Analyst
+      location: Toronto, ON
+      dates: Summer 2009
+      description:
+        - 'Developed in-house software to process business data, generate reports, and automate tasks, saving an estimated 65 minutes daily'
+        - 'Consistently completed projects ahead of schedule'
+        - 'Provided technical assistance to other programmers; was sought after by other departments'
+    - employer: CSC Assembly (Computer Store)
+      title: Repair assistant
+      location: Toronto, ON
+      dates: Summer 2007, 2008
+      description: []
+    - employer: Private math tutor
+      title: ''
+      location: ''
+      dates: 'High School'
+      description: []
