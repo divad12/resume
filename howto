@@ -1,0 +1,16 @@
+0. Install dependencies: LaTeX, Python, etc.
+1. Install mustache. For python,
+    sudo pip install pystache
+   Install yaml parser for your language of choice. For python:
+    sudo apt-get install python-yaml
+   Install tex package for python:
+    sudo pip install tex
+   Install python-cheetah:
+    sudo apt-get install python-cheetah
+    sudo easy_install cheetah
+2. Get LaTeX resume templates:
+    - http://biosun1.harvard.edu/~paciorek/computing/Latex_template_creating_CV_.html
+    - http://linux.dsplabs.com.au/resume-writing-example-latex-template-linux-curriculum-vitae-professional-cv-layout-format-text-p54/
+    - http://www.thelinuxdaily.com/2008/10/latex-resume-examples/
+    - http://www.yisongyue.com/resume/
+

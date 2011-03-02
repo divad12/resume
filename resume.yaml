@@ -1,0 +1,22 @@
+contact:
+    name: David Y. Hu
+    address:
+        - 2035 W Middlefield Rd, Apt. 2
+        - Mountain View, CA  94043
+    email: 'dh@david-hu.com'
+    phone: (519) 729-5861
+skills:
+    - Languages and technologies:
+        - 'C++: 5 years of experience through work, personal projects, contests, robotics, and school'
+        - 'JavaScript: Optimizations and browser bug work-arounds for Google Docs'
+        - 'Moderate experience in Python, C, C#, Qt, Django, Google Closure Tools'
+        - 'Working experience in Bash scripting, YAML, LaTeX, Scheme, ASP.NET'
+        - 'Experienced with the Linux command line; Ubuntu; Mac OS X; Windows'
+        - 'Proficient with Vim and Git; worked with GNU Make, Perforce, SVN, Visual Studio'
+    - General:
+        - 'Regularly competes in programming contests, including ACM, Google AI contest, CCC, Project Euler, USACO'
+        - 'Django and MySQL backend for various web projects'
+        - 'Artificial intelligence bots: Gomoku, competition Tron, competition Rock-Paper-Scissors'
+        - 'MSN plugins: conversation bot, multiplayer display name game'
+        - 'High school: FIRST Robotics controller, Xbox 360 video game, tournament scheduler'
+        - 'Interests include machine learning, compilers, and functional programming'
