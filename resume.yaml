@@ -3,12 +3,13 @@ contact:
     address:
         - 2035 W Middlefield Rd, Apt. 2
         - Mountain View, CA  94043
-    email: 'dh@david-hu.com'
+    email: 'david@david-hu.com'
     phone: (519) 729-5861
+
 skills:
-    - Languages and technologies:
+    - Technical Knowledge:
         - 'C++: 5 years of experience through work, personal projects, contests, robotics, and school'
-        - 'JavaScript: Optimizations and browser bug work-arounds for Google Docs'
+        - 'JavaScript: Optimizations and browser bug workarounds for Google Docs'
         - 'Moderate experience: Python, C, C#, Qt, Django, Google Closure Tools'
         - 'Working experience: Bash scripting, Scheme, LaTeX' # HTML, CSS, JSON, YAML
         - 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
@@ -18,18 +19,20 @@ skills:
         - 'First place optimizing compiler for university competition'
         - 'WEP/WPA penetration-testing GUI application on BackTrack 3'
         - 'Multiple web apps: backends in Django + MySQL and C# + ASP.NET'
+        - 'Designed and implemented a trie-based word-prediction system for an educational toy robot'
         - 'MSN plugins: conversation bot, multiplayer display name game'
         - 'High school: FIRST Robotics controller, Xbox 360 game, tournament scheduler, automation scripts'
     - General:
         - 'Regularly competes in programming contests, including ACM, Google AI contest, CCC, Project Euler, USACO' # ECOO, DWITE, TopCoder, IBM CASCON, IPSC
-        - 'Interests: artificial intelligence, compilers, algorithms, and functional programming'
+        - 'Interested in artificial intelligence, compilers, algorithms, and functional programming'
+
 work:
     - employer: Google
       title: Software Engineering Intern in Test
       location: Mountain View, CA
       dates: January 2011 - Present
       description:
-        - 'Designed and implemented a multi-threaded cross-platform GUI automated testing framework for Google Earth'
+        - 'Designed and implemented a multi-threaded cross-platform GUI automated testing framework for Google Earth in C++'
     - employer: Google
       title: Software Engineering Intern
       location: Waterloo, ON
@@ -51,8 +54,104 @@ work:
       location: Toronto, ON
       dates: Summer 2007, 2008
       description: []
-    - employer: Private math tutor
-      title: ''
-      location: ''
-      dates: 'High School'
-      description: []
+#    - employer: Private math tutor
+#      title: 'High School'
+#      location: ''
+#      dates: ''
+#      description: []
+
+university:
+    - who: Entrepreneurial Project Programmer
+      where: University of Waterloo
+      when: Winter, Fall 2010
+      what: 'Developed a motivational learning website and professional network-building service in teams of three and four, respectively. \url{http://velocity.uwaterloo.ca/student-posts/heres-looking-at-you-cinq-me}'
+    - who: ACM Programming Contest Competitor
+      where: University of Waterloo
+      when: 2009 Fall
+      what: 'Trained five hours twice per week with teammates on algorithm problems. Rapidly wrote and debugged code during competition; attained 13th place out of 115 teams at the ECNA Regionals.'
+    - who: Software Engineering Class Representative
+      where: University of Waterloo
+      when: 2009 Fall - Present
+      what: "Took the initiative to write weekly email updates to the class. Founded the \\emph{Give Me Your Knowledge} student talks series."
+    - who: IEEE Student Branch Member
+      where: University of Waterloo
+      when: 2009 Fall - Present
+      what: "Designed and implemented a mailing system for U Waterloo's IEEE website in ASP.NET and C#."
+
+highSchool:
+    - who: Programming Team Leader
+      where: High School
+      when: 2007 - 2009
+      what: 'Revitalized club: advertised, recruited, taught lessons, organized practices, motivated participants. Achieved top 5 in provincial competition.'
+    - who: FIRST Robotics Team Leader
+      where: High School
+      when: 2008 - 2009
+      what: 'Facilitated communications, organized meetings, and headed programming team.'
+    - who: Programming Competition Finalist
+      where: Canadian Computing Competition
+      when: Mar. 2009
+      what: 'National Bronze Medallist (top 20 in Canada) in the Canadian Computing Competition.'
+    - who: Programming Competition Champion
+      where: IBM CASCON Competition
+      when: Oct. 2008
+      what: 'Bot coded in Java attained first place in Toronto-area high school AI competition. \url{https://www-927.ibm.com/ibm/cas/cascon2008/hspc/results.html}'
+    - who: Peer Tutoring Club Lead Tutor
+      where: High School
+      when: 2008 - 2009
+      what: ''
+    - who: Xbox Media Trade Show Presenter
+      where: X07, Toronto
+      when: Aug. 2007
+      what: 'Invited by Microsoft to present a video game developed using C# in XNA at X07 in Toronto. Was a hit with the blogs: \url{http://www.thebbps.com/articles/content/x07-warpong.html}'
+
+education:
+    - degree: Candidate for Bachelor of Software Engineering
+      school: University of Waterloo
+      dates: 2009 - 2014 (expected)
+      description:
+        - 'Member of the VeloCity start-up incubator (\url{http://velocity.uwaterloo.ca}) for two terms'
+    - degree: High School Diploma
+      school: Western Technical-Commercial School, Toronto
+      dates: 2009
+      description:
+        - 'Enrolled in the gifted/enriched program; graduated with the highest class average (97.5%)'
+
+awards:
+    - "Math and Engineering Dean's Honour List for all terms, University of Waterloo"
+    - 'Engineering Faculty Entrance Scholarship, University of Waterloo'
+    - 'Queen Elizabeth II Aiming for the Top Scholarship'
+    - "Governor General's Academic Medal, Western Tech"
+    - 'Euclid Mathematics Contest School Champion, Western Tech'
+    - 'McCall Award for Computer Science and Engineering, Western Tech'
+    - 'Student Recognition Award, Western Tech'
+
+interests: 'Ping pong, biking, swimming, jogging, camping, reading, collecting pencils, free food'
+
+
+
+
+
+
+
+
+## Trivia: 7 different technologies were used to compile this resume:
+# - YAML for main content source
+# - LaTeX for presentation
+# - Cheetah for templating (delimiters, variables, for... in, etc.)
+# - Python for YAML + template --> LaTeX resume
+# - GNU Make for easy compilation
+# - Vim for editing all files
+# - Git for revision control, diff, backup, branching, etc.
+#
+# - HTML & CSS soon to come
+#
+# Cons:
+#   - difficult to micromanage individual placements, etc.
+#
+# Pros:
+#   - Really easy to apply changes everywhere. Eg: Don't display dates on extracurriculars, increase spacing between all items by x px, etc.
+#
+#
+# TODO:
+#   - include and linkify urls
+#   - unescape Latex (eg for \LaTeX)

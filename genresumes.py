@@ -12,7 +12,7 @@ def escape_latex_all(o):
     elif isinstance(o, dict):
         return dict(map(lambda x: (x[0], escape_latex_all(x[1])), o.items()))
     else:
-        return tex.escape_latex(str(o)).replace('LaTeX', r'\LaTeX') # TODO: OMG HACK HACK HACK
+        return tex.escape_latex(str(o)).replace('LaTeX', r'\LaTeX').replace('\\textbackslash{}', '\\').replace('\\{', '{').replace('\\}', '}') # TODO: OMG HACK HACK HACK maybe try yaml custom data types
 
 contents = yaml.load(open(sys.argv[2], 'r').read())
 escaped = escape_latex_all(contents)
