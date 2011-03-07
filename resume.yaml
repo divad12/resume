@@ -1,8 +1,11 @@
 contact:
     name: David Y. Hu
-    address:
+    currentAddress:
         - 2035 W Middlefield Rd, Apt. 2
         - Mountain View, CA  94043
+    permanentAddress:
+        - 8 Thirty-Third Street
+        - Toronto, ON  M8W 3G8
     email: 'david@david-hu.com'
     phone: (519) 729-5861
 
@@ -11,12 +14,12 @@ skills:
         - 'C++: 5 years of experience through work, personal projects, contests, robotics, and school'
         - 'JavaScript: Optimizations and browser bug workarounds for Google Docs'
         - 'Moderate experience: Python, C, C#, Qt, Django, Google Closure Tools'
-        - 'Working experience: Bash scripting, Scheme, LaTeX' # HTML, CSS, JSON, YAML
+        - 'Prior experience: Bash scripting, Scheme, LaTeX' # HTML, CSS, JSON, YAML
         - 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
-        - 'Tools: Proficient with Vim and Git; worked with Perforce, SVN, GNU Make, gdb, Visual Studio'
+        - 'Tools: Proficient with Vim and Git; worked with Perforce, SVN, Visual Studio' # gdb, GNU Make
     - Projects:
-        - 'Artificial intelligence bots: Gomoku, competition Tron, competition Rock-Paper-Scissors'
         - 'First place optimizing compiler for university competition'
+        - 'Artificial intelligence bots: Gomoku, competition Tron, competition Rock-Paper-Scissors'
         - 'WEP/WPA penetration-testing GUI application on BackTrack 3'
         - 'Multiple web apps: backends in Django + MySQL and C# + ASP.NET'
         - 'Designed and implemented a trie-based word-prediction system for an educational toy robot'
@@ -54,11 +57,6 @@ work:
       location: Toronto, ON
       dates: Summer 2007, 2008
       description: []
-#    - employer: Private math tutor
-#      title: 'High School'
-#      location: ''
-#      dates: ''
-#      description: []
 
 university:
     - who: Entrepreneurial Project Programmer
@@ -72,7 +70,7 @@ university:
     - who: Software Engineering Class Representative
       where: University of Waterloo
       when: 2009 Fall - Present
-      what: "Took the initiative to write weekly email updates to the class. Founded the \\emph{Give Me Your Knowledge} student talks series."
+      what: "Took the initiative to write weekly email updates to the class. Co-founded the \\emph{Give Me Your Knowledge} student talks series."
     - who: IEEE Student Branch Member
       where: University of Waterloo
       when: 2009 Fall - Present
@@ -90,7 +88,7 @@ highSchool:
     - who: Programming Competition Finalist
       where: Canadian Computing Competition
       when: Mar. 2009
-      what: 'National Bronze Medallist (top 20 in Canada) in the Canadian Computing Competition.'
+      what: 'National Bronze Medalist (top 20 in Canada) in the Canadian Computing Competition.'
     - who: Programming Competition Champion
       where: IBM CASCON Competition
       when: Oct. 2008
@@ -114,7 +112,7 @@ education:
       school: Western Technical-Commercial School, Toronto
       dates: 2009
       description:
-        - 'Enrolled in the gifted/enriched program; graduated with the highest class average (97.5%)'
+        - 'Enrolled in the gifted/enriched program; highest average in graduating class (97.5%)'
 
 awards:
     - "Math and Engineering Dean's Honour List for all terms, University of Waterloo"
@@ -128,30 +126,15 @@ awards:
 interests: 'Ping pong, biking, swimming, jogging, camping, reading, collecting pencils, free food'
 
 
-
-
-
-
-
-
-## Trivia: 7 different technologies were used to compile this resume:
-# - YAML for main content source
-# - LaTeX for presentation
-# - Cheetah for templating (delimiters, variables, for... in, etc.)
-# - Python for YAML + template --> LaTeX resume
+################################################################################
+# This resume was created using:
+# - YAML source (this file) - for the resume content
+# - LaTeX template - for presentation and layout
+# - Python script and Cheetah (templating engine) for compiling together the
+#   YAML and LaTeX
+# - pdflatex for .tex --> .pdf
 # - GNU Make for easy compilation
 # - Vim for editing all files
 # - Git for revision control, diff, backup, branching, etc.
 #
-# - HTML & CSS soon to come
-#
-# Cons:
-#   - difficult to micromanage individual placements, etc.
-#
-# Pros:
-#   - Really easy to apply changes everywhere. Eg: Don't display dates on extracurriculars, increase spacing between all items by x px, etc.
-#
-#
-# TODO:
-#   - include and linkify urls
-#   - unescape Latex (eg for \LaTeX)
+# - HTML & CSS template soon to come

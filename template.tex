@@ -8,9 +8,16 @@ directiveStartToken = !
 \usepackage{hyperref}
 \hypersetup{pdfborder={0 0 0 0}}
 
+% Disable ligatures (messes with search in pdf files)
+% TODO: Add another make target (such as printable) that does not do this
+\usepackage{microtype}
+\DisableLigatures{encoding = *, family = * }
+
+% Change some fonts
 \renewcommand{\namefont}{\LARGE\emph}
 \renewcommand{\sectionfont}{\large\bf\sc}
 
+% Margins, spacing, etc.
 \topmargin -.3in
 \oddsidemargin -.5in
 \evensidemargin -.5in
@@ -21,7 +28,7 @@ directiveStartToken = !
 \pagestyle{plain}  % Do want page numbers
 
 \begin{document}
-\begin{sloppypar}
+\begin{sloppypar} % So long words will wrap to the next line instead of overflowing
 
 \name{;contact.name}
 \address{;contact.phone\hspace{1cm};contact.email}
@@ -142,8 +149,8 @@ directiveStartToken = !
 \section{Interests}
 ;interests
 
-\vfill
 
+\vfill
 
 \end{resume}
 \end{sloppypar}
