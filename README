@@ -1,5 +1,5 @@
 0. Install dependencies: LaTeX, Python, etc.
-1. Install yaml parser for your language of choice. For python:
+1. Install yaml parser. For Python:
     sudo apt-get install python-yaml
    Install tex package for python:
     sudo pip install tex
@@ -27,3 +27,4 @@ Pros:
 TODO:
   - include and linkify urls
   - unescape Latex (eg for \LaTeX)
+  - clean up this README

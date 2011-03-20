@@ -6,15 +6,15 @@ contact:
     permanentAddress:
         - 8 Thirty-Third Street
         - Toronto, ON  M8W 3G8
-    email: 'david@david-hu.com'
+    email: 'dyhu@uwaterloo.ca'
     phone: (519) 729-5861
 
 skills:
     - Technical Knowledge:
         - 'C++: 5 years of experience through work, personal projects, contests, robotics, and school'
         - 'JavaScript: Optimizations and browser bug workarounds for Google Docs'
-        - 'Moderate experience: Python, C, C#, Qt, Django, Google Closure Tools'
-        - 'Prior experience: Bash scripting, Scheme, LaTeX' # HTML, CSS, JSON, YAML
+        - 'Moderate experience: Python, C, C#, Qt, Django, Google Closure, mobile web'
+        - 'Prior experience: Bash scripting, Scheme, CSS' # HTML, JSON, YAML, LaTeX
         - 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
         - 'Tools: Proficient with Vim and Git; worked with Perforce, SVN, Visual Studio' # gdb, GNU Make
     - Projects:
@@ -37,11 +37,11 @@ work:
       description:
         - 'Designed and implemented a multi-threaded cross-platform GUI automated testing framework for Google Earth in C++'
     - employer: Google
-      title: Software Engineering Intern
+      title: Software Engineering Intern (Mobile)
       location: Waterloo, ON
       dates: May - August, 2010
       description:
-        - 'Implemented product features for Google Mobile Docs by working around browser bugs'
+        - 'Implemented product features for Google Mobile Docs by finding creative workarounds for browser bugs'
         - 'Derived cubic Bezier math for web-based smooth scrolling using CSS 3D transforms'
         - 'Optimized speed by exploiting JavaScript implementations and improving data structures'
     - employer: TD Bank Financial Group
@@ -123,7 +123,7 @@ awards:
     - 'McCall Award for Computer Science and Engineering, Western Tech'
     - 'Student Recognition Award, Western Tech'
 
-interests: 'Ping pong, biking, swimming, jogging, camping, reading, collecting pencils, free food'
+interests: 'Ping pong, biking, swimming, jogging, camping, reading, free food'
 
 
 ################################################################################
@@ -138,3 +138,8 @@ interests: 'Ping pong, biking, swimming, jogging, camping, reading, collecting p
 # - Git for revision control, diff, backup, branching, etc.
 #
 # - HTML & CSS template soon to come
+#
+# Other places to edit:
+# - LinkedIn
+# - Google profiles
+# - Facebook
