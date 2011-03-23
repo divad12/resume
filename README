@@ -1,9 +1,27 @@
+Resume was created using:
+- YAML source - for the resume content
+- LaTeX template - for presentation and layout
+- Python script and Cheetah (templating engine) for compiling together the
+  YAML and LaTeX
+- pdflatex for .tex --> .pdf
+- GNU Make for compilation
+- Vim and git
+
+
+The purpose is to avoid data duplication and to separate content from
+presentation. For example, I can now create an HTML resume by writing just a
+CSS + HTML template without having to copy-paste job descriptions, etc. Editing
+and updating is restricted to just one place - the YAML source.
+
+
+Rough instructions (will update as a blog post when I roll a blog engine):
+
 0. Install dependencies: LaTeX, Python, etc.
 1. Install yaml parser. For Python:
     sudo apt-get install python-yaml
    Install tex package for python:
     sudo pip install tex
-   Install python-cheetah:
+   Install python-cheetah (templating engine):
     sudo easy_install cheetah
 2. Get LaTeX resume templates or use the one here (based on Paciorek's, the first link)
     - http://biosun1.harvard.edu/~paciorek/computing/Latex_template_creating_CV_.html
@@ -16,15 +34,9 @@
 6. Compile, preview, and edit.
 
 
-Cons:
-  - difficult to micromanage individual placements, etc. This will be resolved by using custom objects for unescaped LaTeX and HTML.
-
-Pros:
-  - Really easy to apply changes everywhere. Eg: Don't display dates on extracurriculars, increase spacing between all items by x px, etc.
-  - Single data representation for multiple presentation (DRY)
-  - Separation of data and presentation
-
 TODO:
-  - include and linkify urls
-  - unescape Latex (eg for \LaTeX)
-  - clean up this README
+  - custom types to unescape Latex (eg \LaTeX, \url{})
+  - clean up this README and convert into markdown
+  - add HTML layout
+  - keep LinkedIn, Google profile, and Facebook in sync
+  - turn this into an easy-to-use web app

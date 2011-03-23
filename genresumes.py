@@ -1,18 +1,22 @@
 #!/usr/bin/python
 
+# Glue between the yaml source and the Cheetah templating engine to produce
+# LaTeX input for pdflatex (HTML soon to come)
+
 from Cheetah.Template import Template
 import sys
 import tex
 import yaml
 
-# TODO: As much as i love functional, do this shorter
+# TODO: there's gotta be a better way of doing this...
 def escape_latex_all(o):
     if isinstance(o, list):
         return map(escape_latex_all, o)
     elif isinstance(o, dict):
         return dict(map(lambda x: (x[0], escape_latex_all(x[1])), o.items()))
     else:
-        return tex.escape_latex(str(o)).replace('LaTeX', r'\LaTeX').replace('\\textbackslash{}', '\\').replace('\\{', '{').replace('\\}', '}') # TODO: OMG HACK HACK HACK maybe try yaml custom data types
+        # TODO: HACK HACK HACK. Use Cheetah custom types.
+        return tex.escape_latex(str(o)).replace('LaTeX', r'\LaTeX').replace('\\textbackslash{}', '\\').replace('\\{', '{').replace('\\}', '}')
 
 contents = yaml.load(open(sys.argv[2], 'r').read())
 escaped = escape_latex_all(contents)
