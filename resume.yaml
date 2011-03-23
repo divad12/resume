@@ -6,8 +6,9 @@ contact:
     permanentAddress:
         - 8 Thirty-Third Street
         - Toronto, ON  M8W 3G8
-    email: 'dyhu@uwaterloo.ca'
+    email: 'david@david-hu.com'
     phone: (519) 729-5861
+    github: '\url{https://github.com/divad12}'
 
 skills:
     - Technical Knowledge:
@@ -31,13 +32,13 @@ skills:
 
 work:
     - employer: Google
-      title: Software Engineering Intern in Test
+      title: Intern
       location: Mountain View, CA
       dates: January 2011 - Present
       description:
         - 'Designed and implemented a multi-threaded cross-platform GUI automated testing framework for Google Earth in C++'
     - employer: Google
-      title: Software Engineering Intern (Mobile)
+      title: Intern (Mobile)
       location: Waterloo, ON
       dates: May - August, 2010
       description:
