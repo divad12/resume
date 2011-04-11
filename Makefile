@@ -1,12 +1,11 @@
-all: davidhu-resume.pdf
+all: resume.pdf
+
+files=resume.pdf resume.html resume.tex resume.yaml template.tex
 
 # TODO: use rsync
 publish: resume.pdf resume.html
-	scp `find . -maxdepth 1 -type f` dhu@david-hu.com:~/www/resume/
-	scp $^ dyhu@csclub.uwaterloo.ca:~/www/
-
-davidhu-resume.pdf: resume.pdf
-	cp resume.pdf davidhu-resume.pdf
+	scp $(files) dhu@david-hu.com:~/www/resume/
+	scp $(files) dyhu@csclub.uwaterloo.ca:~/www/
 
 resume.pdf: resume.tex res.cls
 	pdflatex resume.tex
