@@ -6,6 +6,7 @@ files=resume.pdf resume.html resume.tex resume.yaml template.tex
 publish: resume.pdf resume.html
 	scp $(files) dhu@david-hu.com:~/www/resume/
 	scp $(files) dyhu@csclub.uwaterloo.ca:~/www/
+	cp resume.pdf submit/davidhu-resume.pdf
 
 resume.pdf: resume.tex res.cls
 	pdflatex resume.tex
