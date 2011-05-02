@@ -12,7 +12,7 @@ skills:
         - 'C++: 5 years of experience through work, personal projects, contests, robotics, and school'
         - 'JavaScript: Optimizations and browser bug workarounds for Google Docs'
         - 'Moderate experience: Python, C, C#, Qt, Django, Google Closure, mobile web'
-        - 'Prior experience: Bash scripting, Scheme, CSS' # HTML, JSON, YAML, LaTeX
+        - 'Prior experience: Bash scripting, Scheme, CSS' # HTML, JSON, YAML, LaTeX, XPath
         - 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
         - 'Tools: Proficient with Vim and Git; worked with Perforce, SVN, Visual Studio' # gdb, GNU Make
     - Projects:
@@ -29,27 +29,26 @@ skills:
 
 work:
     - employer: Google
-      title: Intern
+      title: Software Intern
       location: Mountain View, CA
-      dates: January 2011 - Present
+      dates: January - April, 2011
       description:
-        - 'Designed and implemented a multi-threaded cross-platform GUI automated testing framework for Google Earth in C++'
+        - 'Designed and implemented a multi-threaded cross-platform automation framework for Google Earth in C++'
     - employer: Google
-      title: Intern (Mobile)
+      title: Software Intern - Mobile
       location: Waterloo, ON
       dates: May - August, 2010
       description:
         - 'Implemented product features for Google Mobile Docs by finding creative workarounds for browser bugs'
-        - 'Derived cubic Bezier math for web-based smooth scrolling using CSS 3D transforms'
+        - 'Derived cubic Bezier math for emulating native scrolling using CSS 3D transforms - \url{http://googlemobile.blogspot.com/2010/10/gmail-in-mobile-safari-now-even-more.html}'
         - 'Optimized speed by exploiting JavaScript implementations and improving data structures'
     - employer: TD Bank Financial Group
       title: IT Student Analyst
       location: Toronto, ON
-      dates: Summer 2009
+      dates: August 2009
       description:
-        - 'Developed in-house software to process business data, generate reports, and automate tasks, saving an estimated 65 minutes daily'
-        - 'Consistently completed projects ahead of schedule'
-        - 'Provided technical assistance to other programmers; was sought after by other departments'
+        - 'Developed data analysis tools to process business data and generate reports'
+        - 'Developed automation software saving an estimated 65 minutes daily'
     - employer: CSC Assembly (Computer Store)
       title: Repair assistant
       location: Toronto, ON
@@ -122,6 +121,11 @@ awards:
     - 'Student Recognition Award, Western Tech'
 
 interests: 'Ping pong, biking, swimming, jogging, camping, reading, free food'
+
+# TODO:
+# - Improve README
+# - more details 2011 winter work term
+# - change current address
 
 
 ################################################################################
