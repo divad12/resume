@@ -9,12 +9,13 @@ contact:
 
 skills:
     - Technical Knowledge:
-        - 'C++: 5 years of experience through work, personal projects, contests, robotics, and school'
+        - 'Python (Django, Google App Engine): Khan Academy backend, social web startup, hobby projects'
         - 'JavaScript: Optimizations and browser bug workarounds for Google Docs'
-        - 'Moderate experience: Python, C, C#, Qt, Django, Google Closure, mobile web'
-        - 'Prior experience: Bash scripting, Scheme, CSS' # HTML, JSON, YAML, LaTeX, XPath
+        - 'C++: 6 years of experience through work, personal projects, contests, robotics, and school'
+        - 'Experienced with HTML, CSS, C, C#, Qt, Google Closure Tools, MIPS assembly, AWS (EC2, Elastic MapReduce, S3), Hadoop, GNU Make'
+        - 'Prior experience: Bash scripting, Scheme, LaTeX, XPath'
         - 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
-        - 'Tools: Proficient with Vim and Git; worked with Perforce, SVN, Visual Studio' # gdb, GNU Make
+        - 'Tools: Proficient with Vim and Git; worked with Mercurial, Perforce, SVN, Visual Studio' # gdb
     - Projects:
         - 'First place optimizing compiler for university competition'
         - 'Artificial intelligence bots: Gomoku, competition Tron, competition Rock-Paper-Scissors'
@@ -28,6 +29,20 @@ skills:
         - 'Interested in artificial intelligence, compilers, algorithms, and functional programming'
 
 work:
+    - employer: Khan Academy
+      title: Software Developer Intern
+      location: Mountain View, CA
+      dates: August 2011 - present
+      description:
+        - "Investigating, implementing, and evaluating different machine learning algorithms for our new student proficiency metric"
+        - 'Data visualization in Python'
+    - employer: University of Waterloo
+      title: Undergraduate Research Assistant
+      location: Waterloo, ON
+      dates: May 2011 - present
+      description:
+        - 'Implemented algorithms for MapReduce to find clusters of near-duplicate documents in a web crawl'
+        - 'Optimized runs on Amazon Elastic MapReduce'
     - employer: Google
       title: Software Intern
       location: Mountain View, CA
@@ -49,11 +64,11 @@ work:
       description:
         - 'Developed data analysis tools to process business data and generate reports'
         - 'Developed automation software saving an estimated 65 minutes daily'
-    - employer: CSC Assembly (Computer Store)
-      title: Repair assistant
-      location: Toronto, ON
-      dates: Summer 2007, 2008
-      description: []
+#    - employer: CSC Assembly (Computer Store)
+#      title: Repair assistant
+#      location: Toronto, ON
+#      dates: Summer 2007, 2008
+#      description: []
 
 university:
     - who: Entrepreneurial Project Programmer
@@ -63,11 +78,11 @@ university:
     - who: ACM Programming Contest Competitor
       where: University of Waterloo
       when: 2009 Fall
-      what: 'Trained five hours twice per week with teammates on algorithm problems. Rapidly wrote and debugged code during competition; attained 13th place out of 115 teams at the ECNA Regionals.'
+      what: 'One of 9 students selected to represent U Waterloo. Trained five hours twice per week with teammates on algorithm problems. Rapidly wrote and debugged code during competition; attained 13th out of 115 at East Central North America.'
     - who: Software Engineering Class Representative
       where: University of Waterloo
       when: 2009 Fall - Present
-      what: "Took the initiative to write weekly email updates to the class. Co-founded the \\emph{Give Me Your Knowledge} student talks series."
+      what: "Took the initiative to write weekly email updates to the class. Co-founded the \\emph{Give Me Your Knowledge} student talks series. Founded course on open-source development (work in progress) - \\url{http://os499.github.com}"
     - who: IEEE Student Branch Member
       where: University of Waterloo
       when: 2009 Fall - Present

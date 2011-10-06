@@ -35,19 +35,6 @@ directiveStartToken = !
 
 \begin{resume}
 
-\section{Skills}
-!for ;categoryMap in ;skills
-    !for ;category, ;points in ;categoryMap.items()
-        {\bf ;category}
-        \begin{itemize}
-        !for ;point in ;points
-            \item ;point
-        !end for
-        \end{itemize}
-    !end for
-!end for
-
-
 \section {Work Experience}
 
 \begin{format}
@@ -73,6 +60,19 @@ directiveStartToken = !
             \vspace{-.2cm}
         !end if
     \end{position}
+!end for
+
+
+\section{Skills}
+!for ;categoryMap in ;skills
+    !for ;category, ;points in ;categoryMap.items()
+        {\bf ;category}
+        \begin{itemize}
+        !for ;point in ;points
+            \item ;point
+        !end for
+        \end{itemize}
+    !end for
 !end for
 
 
