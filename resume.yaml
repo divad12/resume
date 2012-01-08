@@ -15,7 +15,7 @@ skills:
         - 'Experienced with HTML, CSS, C, C#, Qt, Google Closure Tools, MIPS assembly, AWS (EC2, Elastic MapReduce, S3), Hadoop, GNU Make'
         - 'Prior experience: Bash scripting, Scheme, LaTeX, XPath'
         - 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
-        - 'Tools: Proficient with Vim and Git; worked with Mercurial, Perforce, SVN, Visual Studio' # gdb
+        - 'Tools: Proficient with Vim and Git; worked with Mercurial, Perforce, SVN, Visual Studio' # gdb, Nginx
     - Projects:
         - 'First place optimizing compiler for university competition'
         - 'Artificial intelligence bots: Gomoku, competition Tron, competition Rock-Paper-Scissors'
@@ -32,14 +32,15 @@ work:
     - employer: Khan Academy
       title: Software Developer Intern
       location: Mountain View, CA
-      dates: August 2011 - present
+      dates: August 2011 - December 2011
       description:
-        - "Investigating, implementing, and evaluating different machine learning algorithms for our new student proficiency metric"
-        - 'Data visualization in Python'
+        - 'Proposed and implemented machine learning model for new proficiency model. Blog post (Hacker News frontpaged): \url{http://david-hu.com/ka-ml.html}'
+        - 'Increased student proficiencies by 20%, hint usage by 55%, review problem usage by 22%'
+        - 'Data visualization in Python; map reduce scripts; UI design; see \url{http://david-hu.com/ka-internship-post-mortem.html}'
     - employer: University of Waterloo
       title: Undergraduate Research Assistant
       location: Waterloo, ON
-      dates: May 2011 - present
+      dates: May 2011 - August 2011
       description:
         - 'Implemented algorithms for MapReduce to find clusters of near-duplicate documents in a web crawl'
         - 'Optimized runs on Amazon Elastic MapReduce'
@@ -141,6 +142,7 @@ interests: 'Ping pong, biking, swimming, jogging, camping, reading, free food'
 # - Improve README
 # - more details 2011 winter work term
 # - change current address
+# - fit onto two pages
 
 
 ################################################################################
