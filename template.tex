@@ -5,8 +5,18 @@ directiveStartToken = !
 #end compiler-settings
 
 \documentclass[margin,line]{res}
+
+\usepackage{color}
+\definecolor{linkcolor}{RGB}{50,80,130}
+
+% TODO: Printable target should not color links and should display full URLs
+% instead of \href
 \usepackage{hyperref}
-\hypersetup{pdfborder={0 0 0 0}}
+\hypersetup{
+  pdfborder={0 0 0 0},
+  colorlinks=true,
+  urlcolor=linkcolor
+}
 
 % Disable ligatures (messes with search in pdf files)
 % TODO: Add another make target (such as printable) that does not do this
