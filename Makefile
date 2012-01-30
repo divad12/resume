@@ -4,7 +4,7 @@ files=resume.pdf resume.html resume.tex resume.yaml template.tex
 
 # TODO: use rsync
 publish: resume.pdf resume.html
-	scp $(files) dhu@david-hu.com:~/www/resume/
+	scp $(files) ec2-user@david-hu.com:~/www/resume/
 	scp $(files) dyhu@csclub.uwaterloo.ca:~/www/
 	cp resume.pdf submit/davidhu-resume.pdf
 
