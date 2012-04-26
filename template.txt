@@ -1,0 +1,79 @@
+$contact.name
+$contact.email
+$contact.github
+
+
+WORK EXPERIENCE
+===============
+#for $position in $work
+
+$position.employer  ($position.title)
+#if $position.description
+#for $point in $position.description
+  * $point
+#end for
+#end if
+#end for
+
+
+SKILLS
+======
+#for $categories in $skills
+#for $category, $points in $categories.items()
+
+$category
+#for $point in $points
+  * $point
+#end for
+#end for
+#end for
+
+
+UNIVERSITY ACTIVITIES
+=====================
+#for $activity in $university
+
+$activity.who
+#if $activity.what
+  $activity.what
+#end if
+#end for
+
+
+HIGH SCHOOL ACTIVITIES
+======================
+#for $activity in $highSchool
+
+$activity.who
+#if $activity.what
+  $activity.what
+#end if
+#end for
+
+
+EDUCATION
+=========
+#for $school in $education
+
+$school.degree
+$school.school  ($school.dates)
+#if $school.description
+#for $point in $school.description
+  * $point
+#end for
+#end if
+#end for
+
+
+AWARDS
+======
+
+#for $award in $awards
+  * $award
+#end for
+
+
+INTERESTS
+=========
+
+$interests
