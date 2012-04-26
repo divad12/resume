@@ -1,8 +1,5 @@
 contact:
     name: David Y. Hu
-    currentAddress:
-        - 2035 W Middlefield Rd, Apt. 2
-        - Mountain View, CA  94043
     email: 'david@\href{http://david-hu.com}{david-hu.com}'
     phone: (519) 729-5861
     github: '\href{https://github.com/divad12}{github.com/divad12}'
@@ -14,9 +11,10 @@ skills:
         - 'C++: 6 years of experience through work, personal projects, contests, robotics, and school'
         - 'Experienced with HTML, CSS, jQuery, C, Qt, Google Closure Tools, MIPS assembly, AWS (EC2, Elastic MapReduce, S3), Hadoop, GNU Make'
         - 'Prior experience: Bash scripting, Scheme, LaTeX, XPath, Java, C#'
-        - 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
-        - 'Tools: Proficient with Vim and Git; worked with Mercurial, Perforce, SVN, Visual Studio' # gdb, Nginx
+        #- 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
+        #- 'Tools: Proficient with Vim and Git; worked with Mercurial, Perforce, SVN, Visual Studio' # gdb, Nginx
     - Projects:
+        - '\href{http://numbersapi.com}{Numbers API}: An API for interesting facts about numbers, with about 3K requests per day. Blog post: \url{http://david-hu.com/numapi.html}'
         - 'First place optimizing compiler for university competition'
         - 'Artificial intelligence bots: Gomoku, competition Tron, competition Rock-Paper-Scissors'
         - 'WEP/WPA penetration-testing GUI application on BackTrack 3'
@@ -37,7 +35,7 @@ work:
         - 'Proposed and implemented machine learning model for new proficiency model. Blog post (Hacker News frontpaged): \url{http://david-hu.com/ka-ml.html}'
         - 'Increased student proficiencies by 20%, hint usage by 55%, review problem usage by 22%'
         - 'Data visualization in Python; map reduce scripts; UI design; see \href{http://david-hu.com/ka-internship-post-mortem.html}{post-mortem blog post}'
-        - '\href{https://github.com/Khan/khan-exercises/commits/master?author=divad12}{GitHub commits} and \href{https://khanacademy.kilnhg.com/Code/Website/Group/stable?revset=author(david)}{Kiln changesets}'
+        - 'See \href{https://github.com/Khan/khan-exercises/commits/master?author=divad12}{GitHub commits} and \href{https://khanacademy.kilnhg.com/Code/Website/Group/stable?revset=author(david)}{Kiln changesets}'
     - employer: University of Waterloo
       title: Undergraduate Research Assistant
       location: Waterloo, ON
@@ -144,6 +142,7 @@ interests: 'Ping pong, biking, swimming, jogging, camping, reading, free food'
 # - more details 2011 winter work term
 # - change current address
 # - fit onto two pages
+# - different HTML and LaTeX for special formatting
 
 
 ################################################################################
