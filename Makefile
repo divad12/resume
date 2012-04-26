@@ -1,4 +1,4 @@
-all: resume.pdf
+all: resume.pdf resume.txt
 
 files=resume.pdf resume.html resume.tex resume.yaml template.tex
 
@@ -12,4 +12,13 @@ resume.pdf: resume.tex res.cls
 	pdflatex resume.tex
 
 resume.tex: template.tex resume.yaml genresumes.py
-	./genresumes.py template.tex resume.yaml resume.tex
+	./genresumes.py tex
+
+resume.txt: template.txt resume.yaml genresumes.py
+	./genresumes.py txt
+
+genresumes.py: escape.py
+
+.PHONY: clean
+clean:
+	echo TODO
