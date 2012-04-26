@@ -1,23 +1,24 @@
-all: resume.pdf resume.txt
+all: output/resume.pdf output/resume.txt
 
-files=resume.pdf resume.html resume.tex resume.yaml template.tex
+files=output/resume.pdf resume.html output/resume.tex resume.yaml output/resume.txt
 
 # TODO: use rsync
 .PHONY: publish
-publish: resume.pdf resume.html
+publish: output/resume.pdf resume.html
 	scp $(files) ec2-user@david-hu.com:~/www/resume/
 	scp $(files) dyhu@csclub.uwaterloo.ca:~/www/
-	cp resume.pdf submit/davidhu-resume.pdf
+	cp output/resume.pdf submit/davidhu-resume.pdf
 
-resume.pdf: resume.tex res.cls
-	pdflatex resume.tex
+output/resume.pdf: output/resume.tex res.cls
+	pdflatex -interaction=batchmode -output-directory output $<
 
-resume.tex: template.tex resume.yaml genresumes.py
+output/resume.tex: templates/resume.tex.tmpl resume.yaml genresumes.py
 	./genresumes.py tex
 
-resume.txt: template.txt resume.yaml genresumes.py
+output/resume.txt: templates/resume.txt.tmpl resume.yaml genresumes.py
 	./genresumes.py txt
 
 .PHONY: clean
 clean:
-	echo TODO
+	rm -rf output
+	rm -f *.pyc
