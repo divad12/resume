@@ -1,30 +1,30 @@
 contact:
     name: David Y. Hu
-    email: 'david@\href{http://david-hu.com}{david-hu.com}'
+    email: 'david@[david-hu.com](http://david-hu.com)'
     phone: (519) 729-5861
-    github: '\href{https://github.com/divad12}{github.com/divad12}'
+    github: '[github.com/divad12](https://github.com/divad12)'
 
 skills:
-    - Technical Knowledge:
-        - 'Python (Django, Google App Engine): Khan Academy backend, social web startup, hobby projects'
-        - 'JavaScript: Optimizations and browser bug workarounds for Google Docs'
-        - 'C++: 6 years of experience through work, personal projects, contests, robotics, and school'
-        - 'Experienced with HTML, CSS, jQuery, C, Qt, Google Closure Tools, MIPS assembly, AWS (EC2, Elastic MapReduce, S3), Hadoop, GNU Make'
-        - 'Prior experience: Bash scripting, Scheme, LaTeX, XPath, Java, C#'
-        #- 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
-        #- 'Tools: Proficient with Vim and Git; worked with Mercurial, Perforce, SVN, Visual Studio' # gdb, Nginx
     - Projects:
-        - '\href{http://numbersapi.com}{Numbers API}: An API for interesting facts about numbers, with about 3K requests per day. Blog post: \url{http://david-hu.com/numapi.html}'
+        - '[NumbersAPI.com](http://numbersapi.com): An API for interesting facts about numbers (currently about 3K requests per day). Blog post: [http://david-hu.com/numapi.html](http://david-hu.com/numapi.html)'
         - 'First place optimizing compiler for university competition'
         - 'Artificial intelligence bots: Gomoku, competition Tron, competition Rock-Paper-Scissors'
         - 'WEP/WPA penetration-testing GUI application on BackTrack 3'
-        - 'Multiple web apps: backends in Django + MySQL and C# + ASP.NET'
+        - 'Multiple web apps: backends in Django + MySQL, Node.js + Express, C# + ASP.NET'
         - 'Designed and implemented a trie-based word-prediction system for an educational toy robot'
         - 'MSN plugins: conversation bot, multiplayer display name game'
         - 'High school: FIRST Robotics controller, Xbox 360 game, tournament scheduler, automation scripts'
+    - Technical Knowledge:
+        - 'Python (Django, Google App Engine): Khan Academy backend, social web startup, hobby projects'
+        - 'JavaScript: Optimizations and browser bug workarounds for Google Docs; Node.js; jQuery'
+        - 'C++: 6 years of experience through work, personal projects, contests, robotics, and school'
+        - 'Experienced with HTML, CSS, Sass + Compass, C, Qt, Google Closure Tools, MIPS assembly, AWS (EC2, Elastic MapReduce, S3), Hadoop, GNU Make'
+        - 'Prior experience: Bash scripting, Scheme, LaTeX, XPath, Java, C#'
+        #- 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
+        #- 'Tools: Proficient with Vim and Git; worked with Mercurial, Perforce, SVN, Visual Studio' # gdb, Nginx
     - General:
         - 'Regularly competes in programming contests, including ACM, Google AI contest, CCC, Project Euler, USACO' # ECOO, DWITE, TopCoder, IBM CASCON, IPSC
-        - 'Interested in artificial intelligence, compilers, algorithms, and functional programming'
+        - 'Interested in startups, AI, machine learning, compilers, algorithms'
 
 work:
     - employer: Khan Academy
@@ -32,10 +32,10 @@ work:
       location: Mountain View, CA
       dates: August 2011 - December 2011
       description:
-        - 'Proposed and implemented machine learning model for new proficiency model. Blog post (Hacker News frontpaged): \url{http://david-hu.com/ka-ml.html}'
+        - 'Proposed and implemented machine learning model for new proficiency model. Blog post (Hacker News frontpaged): [http://david-hu.com/ka-ml.html](http://david-hu.com/ka-ml.html)'
         - 'Increased student proficiencies by 20%, hint usage by 55%, review problem usage by 22%'
-        - 'Data visualization in Python; map reduce scripts; UI design; see \href{http://david-hu.com/ka-internship-post-mortem.html}{post-mortem blog post}'
-        - 'See \href{https://github.com/Khan/khan-exercises/commits/master?author=divad12}{GitHub commits} and \href{https://khanacademy.kilnhg.com/Code/Website/Group/stable?revset=author(david)}{Kiln changesets}'
+        - 'Data visualization in Python; map reduce scripts; UI design; see [http://david-hu.com/ka-internship-post-mortem.html](http://david-hu.com/ka-internship-post-mortem.html)'
+        - 'See [GitHub commits](https://github.com/Khan/khan-exercises/commits/master?author=divad12) and [Kiln changesets](https://khanacademy.kilnhg.com/Code/Website/Group/stable?revset=author%28david%29)'
     - employer: University of Waterloo
       title: Undergraduate Research Assistant
       location: Waterloo, ON
@@ -55,15 +55,14 @@ work:
       dates: May - August, 2010
       description:
         - 'Implemented product features for Google Mobile Docs by finding creative workarounds for browser bugs'
-        - 'Derived cubic Bezier math for emulating native scrolling using CSS 3D transforms - \url{http://googlemobile.blogspot.com/2010/10/gmail-in-mobile-safari-now-even-more.html}'
+        - 'Derived cubic Bezier math for emulating native scrolling using CSS 3D transforms - [http://googlemobile.blogspot.com/2010/10/gmail-in-mobile-safari-now-even-more.html](http://googlemobile.blogspot.com/2010/10/gmail-in-mobile-safari-now-even-more.html)'
         - 'Optimized speed by exploiting JavaScript implementations and improving data structures'
     - employer: TD Bank Financial Group
       title: IT Student Analyst
       location: Toronto, ON
       dates: August 2009
       description:
-        - 'Developed data analysis tools to process business data and generate reports'
-        - 'Developed automation software saving an estimated 65 minutes daily'
+        - 'Developed data analysis and report tools; developed automation software saving hours per day'
 #    - employer: CSC Assembly (Computer Store)
 #      title: Repair assistant
 #      location: Toronto, ON
@@ -74,7 +73,7 @@ university:
     - who: Entrepreneurial Project Programmer
       where: University of Waterloo
       when: Winter, Fall 2010
-      what: 'Developed a motivational learning website and professional network-building service in teams of three and four, respectively. \url{http://velocity.uwaterloo.ca/student-posts/heres-looking-at-you-cinq-me}'
+      what: 'Developed a motivational learning website and professional network-building service in teams of three and four, respectively. [http://velocity.uwaterloo.ca/student-posts/heres-looking-at-you-cinq-me](http://velocity.uwaterloo.ca/student-posts/heres-looking-at-you-cinq-me)'
     - who: ACM Programming Contest Competitor
       where: University of Waterloo
       when: 2009 Fall
@@ -82,7 +81,7 @@ university:
     - who: Software Engineering Class Representative
       where: University of Waterloo
       when: 2009 Fall - Present
-      what: "Took the initiative to write weekly email updates to the class. Co-founded the \\emph{Give Me Your Knowledge} student talks series. Founded course on open-source development (work in progress) - \\url{http://os499.github.com}"
+      what: 'Took the initiative to write weekly email updates to the class. Co-founded the "Give Me Your Knowledge" student talks series. Founded course on open-source development (work in progress) - [http://os499.github.com](http://os499.github.com)'
     - who: IEEE Student Branch Member
       where: University of Waterloo
       when: 2009 Fall - Present
@@ -104,7 +103,7 @@ highSchool:
     - who: Programming Competition Champion
       where: IBM CASCON Competition
       when: Oct. 2008
-      what: 'Bot coded in Java attained first place in Toronto-area high school AI competition. \url{https://www-927.ibm.com/ibm/cas/cascon2008/hspc/results.html}'
+      what: 'Bot coded in Java attained first place in Toronto-area high school AI competition. [https://www-927.ibm.com/ibm/cas/cascon2008/hspc/results.html](https://www-927.ibm.com/ibm/cas/cascon2008/hspc/results.html)'
     - who: Peer Tutoring Club Lead Tutor
       where: High School
       when: 2008 - 2009
@@ -112,14 +111,14 @@ highSchool:
     - who: Xbox Media Trade Show Presenter
       where: X07, Toronto
       when: Aug. 2007
-      what: 'Invited by Microsoft to present a video game developed using C# in XNA at X07 in Toronto. Was a hit with the blogs: \url{http://www.thebbps.com/articles/content/x07-warpong.html}'
+      what: 'Invited by Microsoft to present a video game developed using C# in XNA at X07 in Toronto. Was a hit with the blogs: [http://www.thebbps.com/articles/content/x07-warpong.html](http://www.thebbps.com/articles/content/x07-warpong.html)'
 
 education:
     - degree: Candidate for Bachelor of Software Engineering
       school: University of Waterloo
       dates: 2009 - 2014 (expected)
       description:
-        - 'Member of the VeloCity start-up incubator (\url{http://velocity.uwaterloo.ca}) for two terms'
+        - 'Member of the VeloCity start-up incubator ([http://velocity.uwaterloo.ca](http://velocity.uwaterloo.ca)) for two terms'
     - degree: High School Diploma
       school: Western Technical-Commercial School, Toronto
       dates: 2009
