@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 """
 Takes yaml resume input source, escapes it, and feeds it to the Cheetah
