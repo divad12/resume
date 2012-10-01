@@ -5,7 +5,7 @@ files=output/resume.pdf resume.html output/resume.tex resume.yaml output/resume.
 # TODO: use rsync
 .PHONY: publish
 publish: output/resume.pdf resume.html
-	scp $(files) ec2-user@david-hu.com:~/www/resume/
+	scp $(files) david:~/www/resume/
 	scp $(files) dyhu@csclub.uwaterloo.ca:~/www/
 	cp output/resume.pdf submit/davidhu-resume.pdf
 
