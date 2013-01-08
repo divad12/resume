@@ -16,16 +16,10 @@ $position.employer  ($position.title)
 #end for
 
 
-SKILLS
-======
-#for $categories in $skills
-#for $category, $points in $categories.items()
-
-$category
-#for $point in $points
-  * $point
-#end for
-#end for
+OTHER PROJECTS
+==============
+#for $item in $projects
+  * $item
 #end for
 
 

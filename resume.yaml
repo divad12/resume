@@ -1,32 +1,56 @@
 contact:
     name: David Y. Hu
     email: 'david@[david-hu.com](http://david-hu.com)'
-    phone: (519) 729-5861
     github: '[github.com/divad12](https://github.com/divad12)'
+    stackoverflow: '[stackoverflow.com/users/392426](http://stackoverflow.com/users/392426)'
 
-skills:
-    - Projects:
-        - '[NumbersAPI.com](http://numbersapi.com): An API for interesting facts about numbers (currently about 3K requests per day). Blog post: [david-hu.com/numapi.html](http://david-hu.com/numapi.html)'
-        - 'First place optimizing compiler for university competition'
-        - 'Artificial intelligence bots: Gomoku, competition Tron, competition Rock-Paper-Scissors'
-        - 'WEP/WPA penetration-testing GUI application on BackTrack 3'
-        - 'Multiple web apps: backends in Django + MySQL, Node.js + Express, C# + ASP.NET'
-        - 'Designed and implemented a trie-based word-prediction system for an educational toy robot'
-        - 'MSN plugins: conversation bot, multiplayer display name game'
-        - 'High school: FIRST Robotics controller, Xbox 360 game, tournament scheduler, automation scripts'
-    - Technical Knowledge:
-        - 'Python (Django, Google App Engine): Khan Academy backend, social web startup, hobby projects'
-        - 'JavaScript: Optimizations and browser bug workarounds for Google Docs; Node.js; jQuery'
-        - 'C++: 6 years of experience through work, personal projects, contests, robotics, and school'
-        - 'Experienced with HTML, CSS, Sass + Compass, Java, Swing, C, Google Closure Tools, MIPS assembly, AWS (EC2, Elastic MapReduce, S3), Hadoop, GNU Make, Qt'
-        - 'Prior experience: Bash scripting, Scheme, LaTeX, XPath, C#'
-        #- 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
-        #- 'Tools: Proficient with Vim and Git; worked with Mercurial, Perforce, SVN, Visual Studio' # gdb, Nginx
-    - General:
-        - 'Regularly competes in programming contests, including ACM, Google AI contest, CCC, Project Euler, USACO' # ECOO, DWITE, TopCoder, IBM CASCON, IPSC
-        - 'Interested in startups, AI, machine learning, compilers, algorithms'
+projects:
+    - '[NumbersAPI.com](http://numbersapi.com): An API for interesting facts about numbers (about 10K requests per day). Blog post: [david-hu.com/numapi.html](http://david-hu.com/numapi.html)'
+    - 'Personal blog [david-hu.com](http://david-hu.com): 50 000 unique visitors'
+    - 'First place optimizing compiler for university competition'
+    - 'Artificial intelligence bots: Gomoku, competition Tron, competition Rock-Paper-Scissors'
+    - 'WEP/WPA penetration-testing GUI application on BackTrack 3'
+    - 'Multiple web apps: backends in Django + MySQL, Node.js + Express, C# + ASP.NET'
+    - 'Designed and implemented a trie-based word-prediction system for an educational toy robot'
+    - 'MSN plugins: conversation bot, multiplayer display name game'
+    - 'High school: FIRST Robotics controller, Xbox 360 game, tournament scheduler, automation scripts'
+#- Technical Knowledge:
+    #- 'Python (Django, Google App Engine): Khan Academy backend, social web startup, hobby projects'
+    #- 'JavaScript: Optimizations and browser bug workarounds for Google Docs; Node.js; jQuery'
+    #- 'C++: 6 years of experience through work, personal projects, contests, robotics, and school'
+    #- 'Experienced with HTML, CSS, Sass + Compass, Java, Swing, C, Google Closure Tools, MIPS assembly, AWS (EC2, Elastic MapReduce, S3), Hadoop, GNU Make, Qt'
+    #- 'Prior experience: Bash scripting, Scheme, LaTeX, XPath, C#'
+    #- 'Platforms: Linux command line, Ubuntu, Mac OS X, Windows'
+    #- 'Tools: Proficient with Vim and Git; worked with Mercurial, Perforce, SVN, Visual Studio' # gdb, Nginx
+#- General:
+    #- 'Regularly competes in programming contests, including ACM, Google AI contest, CCC, Project Euler, USACO' # ECOO, DWITE, TopCoder, IBM CASCON, IPSC
+    #- 'Interested in startups, AI, machine learning, compilers, algorithms'
 
 work:
+    - employer: Sift Science
+      title: Software Developer Intern
+      location: San Francisco, CA
+      dates: January 2013 - April 2013
+      description: []
+    - employer: 'Self ([uwflow.com](http://uwflow.com): social course planning)'
+      title: Co-founder
+      location: Waterloo, Canada
+      dates: September 2012 - Present
+      description:
+        - 'Worked on all parts of the application, focusing on UX design and frontend'
+        - 'Worked with Sass + Compass, Bootstrap, Require.js, Backbone.js, Redis, MongoDB + MongoEngine, Python + Flask'
+        - 'System administration: set up EC2 servers, EBS snapshots, Nginx'
+        - 'A/B testing, emails, pitching, team planning'
+    - employer: Khan Academy
+      title: Software Developer Intern
+      location: Mountain View, CA
+      dates: May 2012 - August 2012
+      description:
+        - 'Presented a [TEDx talk](http://storify.com/tedxufm/tedxufm-david-hu-divad-12-on-tedxufm-2012) on my previous work'
+        - 'Full-stack data analytics: Apache Hive for data warehousing and Backbone.js and Bootstrap for frontend dashboard'
+        - '3 hackathon projects in 24hrs (all shipped): real-time map of users; 2x video speed; RSS feed'
+        - 'Independently conceived and wrote continuous integration & deployment tool: [github.com/Khan/gae-continuous-deploy](https://github.com/Khan/gae-continuous-deploy)'
+        - 'Organized bike trip from Mountain View to SF; [helped new interns](https://github.com/Khan/khan-dotfiles); popular [CS hack project](http://www.khanacademy.org/cs/m/938561708)'
     - employer: Khan Academy
       title: Software Developer Intern
       location: Mountain View, CA
@@ -35,7 +59,7 @@ work:
         - 'Proposed and implemented machine learning model for new proficiency model. Blog post (Hacker News frontpaged): [david-hu.com/ka-ml.html](http://david-hu.com/ka-ml.html)'
         - 'Increased student proficiencies by 20%, hint usage by 55%, review problem usage by 22%'
         - 'Data visualization in Python; map reduce scripts; UI design; see [david-hu.com/ka-internship-post-mortem.html](http://david-hu.com/ka-internship-post-mortem.html)'
-        - 'See GitHub commits ([david-hu.com/ka-github.html](http://david-hu.com/ka-github.html)) and Kiln changesets ([david-hu.com/ka-kiln.html](http://david-hu.com/ka-kiln.html]))'
+        - 'See GitHub commits ([david-hu.com/ka-github.html](http://david-hu.com/ka-github.html)) and [Kiln changesets](http://david-hu.com/ka-kiln.html)'
     - employer: University of Waterloo
       title: Undergraduate Research Assistant
       location: Waterloo, ON
@@ -103,11 +127,11 @@ highSchool:
     - who: Programming Competition Champion
       where: IBM CASCON Competition
       when: Oct. 2008
-      what: 'Bot coded in Java attained first place in Toronto-area high school AI competition. [www-927.ibm.com/ibm/cas/cascon2008/hspc/results.html](https://www-927.ibm.com/ibm/cas/cascon2008/hspc/results.html)'
-    - who: Peer Tutoring Club Lead Tutor
-      where: High School
-      when: 2008 - 2009
-      what: ''
+      what: 'Bot coded in Java attained first place in Toronto-area high school AI competition.' #[www-927.ibm.com/ibm/cas/cascon2008/hspc/results.html](https://www-927.ibm.com/ibm/cas/cascon2008/hspc/results.html)'
+    #- who: Peer Tutoring Club Lead Tutor
+      #where: High School
+      #when: 2008 - 2009
+      #what: ''
     - who: Xbox Media Trade Show Presenter
       where: X07, Toronto
       when: Aug. 2007
