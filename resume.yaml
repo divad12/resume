@@ -7,10 +7,10 @@ contact:
 projects:
     - '[NumbersAPI.com](http://numbersapi.com): An API for interesting facts about numbers (about 10K requests per day). Blog post: [david-hu.com/numapi.html](http://david-hu.com/numapi.html)'
     - 'Personal blog [david-hu.com](http://david-hu.com): 50 000 unique visitors'
+    - 'Built web apps in Flask + MongoEngine, Rails + Mongoid, App Engine, Node.js + Express, Django + MySQL, C# + ASP.NET'
     - 'First place optimizing compiler for university competition'
     - 'Artificial intelligence bots: Gomoku, competition Tron, competition Rock-Paper-Scissors'
     - 'WEP/WPA penetration-testing GUI application on BackTrack 3'
-    - 'Multiple web apps: backends in Django + MySQL, Node.js + Express, C# + ASP.NET'
     - 'Designed and implemented a trie-based word-prediction system for an educational toy robot'
     - 'MSN plugins: conversation bot, multiplayer display name game'
     - 'High school: FIRST Robotics controller, Xbox 360 game, tournament scheduler, automation scripts'
@@ -30,17 +30,19 @@ work:
     - employer: Sift Science
       title: Software Developer Intern
       location: San Francisco, CA
-      dates: January 2013 - April 2013
-      description: []
-    - employer: 'Self ([uwflow.com](http://uwflow.com): social course planning)'
+      dates: January 2013 - August 2013
+      description:
+        - "Led the development and design of our user-facing product: fraud visualization dashboard"
+        - 'Set up the frontend stack consisting of Backbone.js, Marionette.js, Handlebars.js, and others'
+        - 'Redesigned home page, jobs page, pricing page, blog page; mentored an intern during summer'
+    - employer: '[uwflow.com](http://uwflow.com): social course planning'
       title: Co-founder
       location: Waterloo, Canada
       dates: September 2012 - Present
       description:
-        - 'Worked on all parts of the application, focusing on UX design and frontend'
-        - 'Worked with Sass + Compass, Bootstrap, Require.js, Backbone.js, Redis, MongoDB + MongoEngine, Python + Flask'
-        - 'System administration: set up EC2 servers, EBS snapshots, Nginx'
-        - 'A/B testing, emails, pitching, team planning'
+        - 'Side project with two friends. Beta has 3800 users and 50 000 user-submitted ratings'
+        - 'Worked with Sass, Bootstrap, Require.js, Backbone, Redis, Mongo, Python + Flask, AWS'
+        - 'Coding, UI design, system administration, A/B testing, emails, pitching, team planning'
     - employer: Khan Academy
       title: Software Developer Intern
       location: Mountain View, CA
@@ -58,7 +60,7 @@ work:
       description:
         - 'Proposed and implemented machine learning model for new proficiency model. Blog post (Hacker News frontpaged): [david-hu.com/ka-ml.html](http://david-hu.com/ka-ml.html)'
         - 'Increased student proficiencies by 20%, hint usage by 55%, review problem usage by 22%'
-        - 'Data visualization in Python; map reduce scripts; UI design; see [david-hu.com/ka-internship-post-mortem.html](http://david-hu.com/ka-internship-post-mortem.html)'
+        - 'Data viz in Python; map reduce scripts; UI design; see [david-hu.com/ka-internship-post-mortem.html](http://david-hu.com/ka-internship-post-mortem.html)'
         - 'See GitHub commits ([david-hu.com/ka-github.html](http://david-hu.com/ka-github.html)) and [Kiln changesets](http://david-hu.com/ka-kiln.html)'
     - employer: University of Waterloo
       title: Undergraduate Research Assistant
@@ -66,7 +68,7 @@ work:
       dates: May 2011 - August 2011
       description:
         - 'Implemented map reduce algorithms to cluster near-duplicate documents in a web crawl'
-        - 'Optimized runs on Amazon Elastic MapReduce'
+        - 'Optimized runs for Hadoop running on Amazon Elastic MapReduce'
     - employer: Google
       title: Software Intern
       location: Mountain View, CA
@@ -78,7 +80,7 @@ work:
       location: Waterloo, ON
       dates: May - August, 2010
       description:
-        - 'Implemented product features for Google Mobile Docs by finding creative workarounds for browser bugs'
+        - 'Implemented product features for Google Mobile Docs; find workarounds for browser bugs'
         - 'Derived cubic Bezier math for emulating native scrolling using CSS 3D transforms - [googlemobile.blogspot.com/2010/10/gmail-in-mobile-safari-now-even-more.html](http://googlemobile.blogspot.com/2010/10/gmail-in-mobile-safari-now-even-more.html)'
         - 'Optimized speed by exploiting JavaScript implementations and improving data structures'
     - employer: TD Bank Financial Group
@@ -96,8 +98,8 @@ work:
 university:
     - who: Entrepreneurial Project Programmer
       where: University of Waterloo
-      when: Winter, Fall 2010
-      what: 'Developed a motivational learning website and professional network-building service in teams of three and four, respectively. [velocity.uwaterloo.ca/student-posts/heres-looking-at-you-cinq-me](http://velocity.uwaterloo.ca/student-posts/heres-looking-at-you-cinq-me)'
+      when: 2010, 2012
+      what: 'In teams, developed a social course planner ([uwflow.com](http://uwflow.com), 2000 registered users); professional [network-building service](http://velocity.uwaterloo.ca/student-posts/heres-looking-at-you-cinq-me); motivational learning website'
     - who: ACM Programming Contest Competitor
       where: University of Waterloo
       when: 2009 Fall
