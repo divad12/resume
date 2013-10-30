@@ -6,6 +6,7 @@ files=output/resume.pdf resume.html output/resume.tex resume.yaml output/resume.
 .PHONY: publish
 publish: output/resume.pdf resume.html
 	scp $(files) david:~/www/resume/
+	scp $(files) david:~/www/
 	scp $(files) dyhu@csclub.uwaterloo.ca:~/www/
 	cp output/resume.pdf submit/davidhu-resume.pdf
 
