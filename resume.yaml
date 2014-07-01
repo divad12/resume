@@ -5,6 +5,7 @@ contact:
     stackoverflow: '[stackoverflow.com/users/392426](http://stackoverflow.com/users/392426)'
 
 projects:
+    - '[VimAwesome.com](http://vimawesome.com): Directory of most popular Vim plugins sourced from GitHub and Vim.org, built with React and RethinkDB.'
     - '[NumbersAPI.com](http://numbersapi.com): An API for interesting facts about numbers (about 10K requests per day). Blog post: [david-hu.com/numapi.html](http://david-hu.com/numapi.html)'
     - 'Personal blog [david-hu.com](http://david-hu.com): 50 000 unique visitors'
     - 'Built web apps in Flask + MongoEngine, Rails + Mongoid, App Engine, Node.js + Express, Django + MySQL, C# + ASP.NET'
