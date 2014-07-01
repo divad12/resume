@@ -28,6 +28,11 @@ projects:
     #- 'Interested in startups, AI, machine learning, compilers, algorithms'
 
 work:
+    - employer: Khan Academy
+      title: Software Engineer
+      location: Mountain View, CA
+      dates: June 2014 - Present
+      description: []
     - employer: Sift Science
       title: Software Developer Intern
       location: San Francisco, CA
