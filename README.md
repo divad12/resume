@@ -1,4 +1,4 @@
-Resume was created using:
+#Resume was created using:
 - YAML source - for the resume content
 - LaTeX template - for presentation and layout
 - Python script and Cheetah (templating engine) for compiling together the
@@ -34,7 +34,7 @@ Rough instructions (will update as a blog post when I roll a blog engine):
 6. Compile, preview, and edit.
 
 
-TODO:
+###TODO:
   - custom types to unescape Latex (eg \LaTeX, \url{})
   - clean up this README and convert into markdown
   - add HTML layout
